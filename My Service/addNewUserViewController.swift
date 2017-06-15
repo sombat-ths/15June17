@@ -9,7 +9,13 @@
 import UIKit
 
 class addNewUserViewController: UIViewController {
-
+    //implicit variable
+    var  strUsername: String? = nil
+    var  strPassword: String? = nil
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         print("This is AddNewuser")
@@ -25,6 +31,20 @@ class addNewUserViewController: UIViewController {
     
     
     @IBAction func Save(_ sender: UIButton) {
+            strUsername = nameTxt.text
+            strPassword = passTxt.text
+            let intName = strUsername?.characters.count
+            let intPass = strPassword?.characters.count
+        if intName || intPass == 0 {
+            print("Username or Password not Space")
+        }else
+        {
+            print("No space")
+        }
+        
+        
+        
+        
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
