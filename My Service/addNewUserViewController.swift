@@ -35,12 +35,15 @@ class addNewUserViewController: UIViewController {
             strPassword = passTxt.text
             let intName = strUsername?.characters.count
             let intPass = strPassword?.characters.count
-        if intName || intPass == 0 {
+        if intName == 0 || intPass == 0 {
             print("Username or Password not Space")
         }else
         {
             print("No space")
         }
+        
+        
+    
         
         
         
