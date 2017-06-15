@@ -36,8 +36,6 @@ class ViewController: UIViewController {
             
             }   // if1
             
-            
-        
         }
         task.resume()
         
