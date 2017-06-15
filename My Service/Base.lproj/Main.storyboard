@@ -84,6 +84,9 @@
                                 <rect key="frame" x="103" y="567" width="34" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Save"/>
+                                <connections>
+                                    <action selector="Save:" destination="UF5-Bf-itH" eventType="touchUpInside" id="rV9-o7-X8S"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jxe-RP-gi0">
                                 <rect key="frame" x="144" y="122" width="97" height="30"/>
@@ -114,6 +117,10 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="nameTxt" destination="jxe-RP-gi0" id="rZ1-IZ-qHy"/>
+                        <outlet property="passTxt" destination="l50-Zk-q7Q" id="Y22-ow-W1e"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="O3y-av-tWf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

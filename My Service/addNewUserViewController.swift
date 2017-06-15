@@ -17,10 +17,21 @@ class addNewUserViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    
+    @IBOutlet weak var nameTxt: UITextField!
+    
+    
+    @IBOutlet weak var passTxt: UITextField!
+    
+    
+    @IBAction func Save(_ sender: UIButton) {
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    
     
 
     /*
