@@ -12,6 +12,10 @@
 		AEFA005D1EF25CF8009A3E23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEFA005B1EF25CF8009A3E23 /* Main.storyboard */; };
 		AEFA005F1EF25CF8009A3E23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEFA005E1EF25CF8009A3E23 /* Assets.xcassets */; };
 		AEFA00621EF25CF8009A3E23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEFA00601EF25CF8009A3E23 /* LaunchScreen.storyboard */; };
+		F596D70C1EF27E0F004ED5D7 /* addNewUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F596D70B1EF27E0F004ED5D7 /* addNewUserViewController.swift */; };
+		F596D70E1EF281F9004ED5D7 /* SNRU_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F596D70D1EF281F9004ED5D7 /* SNRU_2.jpg */; };
+		F596D7101EF285FE004ED5D7 /* ic_account_box_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F596D70F1EF285FE004ED5D7 /* ic_account_box_3x.png */; };
+		F596D7121EF28605004ED5D7 /* ic_accessible_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F596D7111EF28605004ED5D7 /* ic_accessible_2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		AEFA005E1EF25CF8009A3E23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AEFA00611EF25CF8009A3E23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AEFA00631EF25CF8009A3E23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F596D70B1EF27E0F004ED5D7 /* addNewUserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addNewUserViewController.swift; sourceTree = "<group>"; };
+		F596D70D1EF281F9004ED5D7 /* SNRU_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = SNRU_2.jpg; path = ../../../Desktop/SNRU_2.jpg; sourceTree = "<group>"; };
+		F596D70F1EF285FE004ED5D7 /* ic_account_box_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_account_box_3x.png; path = ../../../Desktop/ic_account_box_3x.png; sourceTree = "<group>"; };
+		F596D7111EF28605004ED5D7 /* ic_accessible_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_accessible_2x.png; path = ../../../Desktop/ic_accessible_2x.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +63,12 @@
 			isa = PBXGroup;
 			children = (
 				AEFA00571EF25CF8009A3E23 /* AppDelegate.swift */,
+				F596D7111EF28605004ED5D7 /* ic_accessible_2x.png */,
+				F596D70F1EF285FE004ED5D7 /* ic_account_box_3x.png */,
+				F596D70D1EF281F9004ED5D7 /* SNRU_2.jpg */,
 				AEFA00591EF25CF8009A3E23 /* ViewController.swift */,
 				AEFA005B1EF25CF8009A3E23 /* Main.storyboard */,
+				F596D70B1EF27E0F004ED5D7 /* addNewUserViewController.swift */,
 				AEFA005E1EF25CF8009A3E23 /* Assets.xcassets */,
 				AEFA00601EF25CF8009A3E23 /* LaunchScreen.storyboard */,
 				AEFA00631EF25CF8009A3E23 /* Info.plist */,
@@ -125,7 +137,10 @@
 			files = (
 				AEFA00621EF25CF8009A3E23 /* LaunchScreen.storyboard in Resources */,
 				AEFA005F1EF25CF8009A3E23 /* Assets.xcassets in Resources */,
+				F596D70E1EF281F9004ED5D7 /* SNRU_2.jpg in Resources */,
+				F596D7121EF28605004ED5D7 /* ic_accessible_2x.png in Resources */,
 				AEFA005D1EF25CF8009A3E23 /* Main.storyboard in Resources */,
+				F596D7101EF285FE004ED5D7 /* ic_account_box_3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F596D70C1EF27E0F004ED5D7 /* addNewUserViewController.swift in Sources */,
 				AEFA005A1EF25CF8009A3E23 /* ViewController.swift in Sources */,
 				AEFA00581EF25CF8009A3E23 /* AppDelegate.swift in Sources */,
 			);
@@ -301,6 +317,7 @@
 				AEFA00681EF25CF8009A3E23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
